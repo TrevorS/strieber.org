@@ -14,6 +14,7 @@ gem 'font-awesome-rails', '~> 4.0.3.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'google-webfonts', '~> 0.1.2'
 gem 'animate.css-rails', '~> 3.0.0'
+gem 'scrolld.js-rails', '~> 1.0.0'
 
 group :development do
   # capistrano
