@@ -36,19 +36,19 @@ body {
 
 .cover-name {
   font-size: 40px;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .cover-heading {
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   -webkit-animation-delay: 1s;
-      moz-animation-delay: 1s;
-       ms-animation-delay: 1s;
-        o-animation-delay: 1s;
-          animation-delay: 1s;
+  moz-animation-delay: 1s;
+  ms-animation-delay: 1s;
+  o-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .inner {
@@ -182,5 +182,45 @@ body {
 
 .social-icon > a:hover,
 .social-icon > a:focus {
+  color: rgba(108, 223, 234, 0.95);
+}
+
+.categories {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.categories h4 {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: left;
+  padding-bottom: 13px;
+}
+
+.categories ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.categories li {
+  font-size: 18px;
+  text-align: left;
+}
+
+.categories i {
+  padding-left: 8px;
+}
+
+.categories a {
+  color: rgba(108, 223, 234, 0.95);
+}
+
+.my-email {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.at {
   color: rgba(108, 223, 234, 0.95);
 }
