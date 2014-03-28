@@ -1,4 +1,5 @@
 HomePage::Application.routes.draw do
-  get 'static/index'
+  get '/projects', to: 'static#projects'
+  get '/contact', to: 'static#contact'
   root to: 'static#index'
 end
