@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # core
-gem 'rails', '4.0.3'
+gem 'rails', '4.1.8'
 gem 'jquery-rails', '~> 3.1.0'
 gem 'sqlite3', '~> 1.3.9'
 gem 'turbolinks', '~> 2.2.1'
