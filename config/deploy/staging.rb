@@ -1,3 +1,3 @@
-role :app, %w{nginx@strieber.org}
-role :web, %w{nginx@strieber.org}
-role :db, %w{nginx@strieber.org}
+role :app, %w{deploy@strieber}
+role :web, %w{deploy@strieber}
+role :db, %w{deploy@strieber}
