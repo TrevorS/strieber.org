@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
 # core
-gem 'rails', '4.1.8'
+gem 'rails', '4.2.0'
 gem 'jquery-rails', '~> 3.1.0'
 gem 'sqlite3', '~> 1.3.9'
 gem 'turbolinks', '~> 2.2.1'
 gem 'therubyracer', '~> 0.12.1', platforms: :ruby
+gem 'responders', '~> 2.0'
 
 # assets
 gem 'sass-rails', '~> 4.0.0'
@@ -22,4 +23,6 @@ group :development do
   gem 'capistrano-rails', '~> 1.1', require: false
   gem 'capistrano-bundler', '~> 1.1', require: false
   gem 'capistrano-rbenv', '~> 2.0', require: false
+
+  gem 'web-console', '~> 2.0'
 end
