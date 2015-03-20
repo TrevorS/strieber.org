@@ -1,5 +1,4 @@
-# config valid only for Capistrano 3.1
-lock '3.3.4'
+lock '3.4.0'
 
 set :application, 'strieber.org'
 set :repo_url,    'http://github.com/TrevorS/strieber.org.git'
